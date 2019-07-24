@@ -8,8 +8,12 @@
 
 int main()
 {
-
-    std::cout << "Hello World!\n";
 	int a = 0;
-	SortHelper::SortTestFunc(SortAlgorithm::SelectSort, 1000, "选择排序");
+	SortHelper::SortTestFunc(SortAlgorithm::SelectSort, 10000, "选择排序");
+
+	SortHelper::SortTestFunc(SortAlgorithm::InsertSort, 10000, "插入排序");
+	
+		
+	//SortHelper::SortTestFunc(SortAlgorithm::MergeSort, 10000, "归并排序");
+	return 0;
 }
