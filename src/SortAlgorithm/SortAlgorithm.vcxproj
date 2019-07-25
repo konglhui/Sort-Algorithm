@@ -154,6 +154,7 @@
     <ClCompile Include="SortAlgorithm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MedianBlur.h" />
     <ClInclude Include="Sort.h" />
     <ClInclude Include="SortHelper.h" />
   </ItemGroup>
