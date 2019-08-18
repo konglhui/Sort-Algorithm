@@ -69,7 +69,8 @@ namespace SortHelper
 	{
 		//生成数据
 		if(g_arr.empty())
-			g_arr = GeneratorRandomArray(n, 0, n);
+			//g_arr = GeneratorRandomArray(n, 0, n);
+			g_arr = GeneratorArray(n, 0, n);
 		std::vector<int> arr(g_arr);
 		
 		//int* arr = GeneratorRandomArray(n, 0, n);
